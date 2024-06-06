@@ -33,3 +33,5 @@ public class WindSpeedPanel extends JPanel implements Observer<Double> {
         windSpeedLabel.setText("Wind Speed: " + String.format("%.2f", windSpeed) + " m/s");
     }
 }
+
+
